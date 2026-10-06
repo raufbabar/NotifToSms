@@ -17,5 +17,5 @@ jobs:
       - name: Setup Gradle
         uses: gradle/actions/setup-gradle@v3
 
-      - name: Build APK without gradlew wrapper
+      - name: Build APK with Gradle Wrapper
         run: gradle assembleDebug
